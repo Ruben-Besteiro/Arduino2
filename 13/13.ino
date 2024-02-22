@@ -70,4 +70,3 @@ void loop() {
   pulsador1ant = pulsador1;
   pulsador2ant = pulsador2;
 }
-// XD
