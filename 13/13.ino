@@ -10,6 +10,7 @@ void setup() {
   Serial.begin(9600);
   pinMode(pinPulsador1, INPUT);
   pinMode(pinPulsador2, INPUT);
+  pinMode(pinMotor, OUTPUT);
 
   Serial.println("Introduce cuántas marchas debe tener el motor");
   while (entrada == 0) {      // Si Serial.available es igual a 0, este bucle lo que hace es no hacer nada hasta que deje de serlo. Así forzamos que Serial.available sea utilizable
