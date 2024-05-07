@@ -141,7 +141,7 @@ void loop() {
         digitalWrite(3, LOW);
         digitalWrite(2, HIGH);
         break;
-        default: Serial.println("Error");
+        default: Serial.println(datoCom);
     }
     /*Serial.print("Comando: ");
     Serial.println(datoCom);*/
